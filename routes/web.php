@@ -23,7 +23,7 @@ Route::prefix('customer')->group(function () {
     });
 
     Route::get('create', function () {
-        // Hiển thị Form tạo khách hàng
+        return view('create');
     });
 
     Route::post('store', function () {
